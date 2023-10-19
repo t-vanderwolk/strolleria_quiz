@@ -1,4 +1,8 @@
+import  { useState } from "react"
+
 export default function Questions() {
+
+const [checked, setChecked]=useState(undefined)
 
     function onSelect(){
         console.log('radio button change')
@@ -13,7 +17,7 @@ export default function Questions() {
                 value={true}
                 name='options'
                 id="q1-option"
-                onChange={onSelect}
+                onChange={onSelect()}
                 />
             </li>
         </ul>
