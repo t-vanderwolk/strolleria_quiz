@@ -1,5 +1,7 @@
 import React from "react"
 import Questions from './Questions';
+import logo from '../logo/logo.png'
+
 export default function Quiz() {
 // next button event handler
     function onNext(){
@@ -11,8 +13,8 @@ export default function Quiz() {
     }
   return (
     <div className="container">
-        
-        <h1 className='title'>Product Quiz</h1>
+        <img className='logo'src={logo}  alt='strolleria.com'  />
+        {/* <h1 className='title'>Product Quiz</h1> */}
         <Questions />
         
 <div className="grid">

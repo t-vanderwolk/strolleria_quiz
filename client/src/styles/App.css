@@ -10,6 +10,7 @@
 #prev-btn{
   background-color: #A4B8B4;
   float: left;
+  
 
   
 }
@@ -160,22 +161,22 @@ ul li .check::before {
 
 
 input[type=radio]:checked ~ .check {
-  border: 5px solid var(--primary-color)
+  border: 5px solid #A4B8B4
 }
 
 input[type=radio]:checked ~ .check::before{
-  background: var(--primary-color)
+  background: black
 }
 
 input[type=radio]:checked ~ .text-primary{
-  color: var(--primary-color)
+  color: black
 } 
 
 /* To get selected option we are using this checked class */
 .checked {
-  border: 5px solid var(--primary-color) !important;
+  border: 5px solid #A4B8B4 !important;
 }
 
 .checked::before{
-  background: var(--primary-color)
+  background: white
 }
