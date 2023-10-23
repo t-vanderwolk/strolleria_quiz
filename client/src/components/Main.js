@@ -6,7 +6,7 @@ export default function Main() {
     const inputRef= useRef(null)
   return (
     <div className="container">
-        <img src={logo}  alt='strolleria.com' width='100%' height='100' />
+        <img className='logo'src={logo}  alt='strolleria.com'  />
         <h1 className="title">Product Quiz</h1>
         <ol className='directions'>
             <li>You will be asked 10 questions one after another.</li>

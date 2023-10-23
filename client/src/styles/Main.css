@@ -1,6 +1,10 @@
 .title {
     color: black;
 }
+.logo{
+    display: flex;
+   width: 80%
+}
 .container ol li{
     font-size: 1.4em;
     color: black;
