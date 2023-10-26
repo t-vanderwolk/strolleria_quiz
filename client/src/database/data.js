@@ -1,4 +1,4 @@
-export default [
+let questions=[
     {
         id:1,
         question:"What car seats are compatible with a Nuna stroller?",
@@ -7,25 +7,27 @@ export default [
             'Nuna only',
             'UPPAbaby and Nuna Only',
         ]
+        
+          
 
     },
     {
         id:2,
-        question:"",
+        question:"How much does the UPPAbaby Vista weigh?",
         options:[
-            '',
-            '',
-            '',
+            '25lbs',
+            '32lbs',
+            '27lbs',
         ]
 
     },
     {
         id:3,
-        question:"",
+        question:"What Brand uses recycled water bottles in their fabric? ",
         options:[
-            '',
-            '',
-            '',
+            'Bugaboo',
+            'Thule',
+            'Silver Cross',
         ]
 
     },
@@ -101,3 +103,4 @@ export default [
     },
 
 ]
+export default questions

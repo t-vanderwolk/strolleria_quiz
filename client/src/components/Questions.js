@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react"
-import data from "../database/data"
+import questions from "../database/data"
 
 export default function Questions() {
 const [checked, setChecked]=useState(undefined)
 
-const question = data[0]
+const question = questions[0]
 
 useEffect(()=>{
     console.log(question)
@@ -22,13 +22,13 @@ useEffect(()=>{
  <li key={i}>
         <input 
         type='radio'
-        value={false}
+        value={checked}
         name='options'
         id={`q${i}-option`}
         onChange={onSelect()}
         />
         <label className="text-primary" htmlFor={`q${i}-option`}>{q}</label>
-        <div className="check checked"></div>
+        <div className="check"></div>
     </li>
     ))
     }

@@ -14,6 +14,8 @@ export default function Quiz() {
   return (
     <div className="container">
         <img className='logo'src={logo}  alt='strolleria.com'  />
+        <h1 className="title">Product Quiz</h1>
+
         {/* <h1 className='title'>Product Quiz</h1> */}
         <Questions />
         
