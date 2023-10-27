@@ -1,8 +1,17 @@
-import React from "react"
+import React, { useEffect } from "react"
 import Questions from './Questions';
 import logo from '../logo/logo.png'
 
+// redux store import 
+import {useSelector} from 'react-redux'
+
 export default function Quiz() {
+
+const { questions }=useSelector(state => state)
+
+useEffect(() => {
+    console.log(questions.queue)
+})
 // next button event handler
     function onNext(){
         console.log('On next click')
